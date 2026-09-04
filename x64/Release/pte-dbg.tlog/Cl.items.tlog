@@ -1,8 +1,0 @@
-D:\Driver_study\pte-dbg\pte-dbg\driver\DriverMain.cpp;D:\Driver_study\pte-dbg\pte-dbg\x64\Release\DriverMain.obj
-D:\Driver_study\pte-dbg\pte-dbg\DbgHook\dbg.cpp;D:\Driver_study\pte-dbg\pte-dbg\x64\Release\dbg.obj
-D:\Driver_study\pte-dbg\pte-dbg\DbgHook\HookFunc.cpp;D:\Driver_study\pte-dbg\pte-dbg\x64\Release\HookFunc.obj
-D:\Driver_study\pte-dbg\pte-dbg\PteHook\hook_manager.cpp;D:\Driver_study\pte-dbg\pte-dbg\x64\Release\hook_manager.obj
-D:\Driver_study\pte-dbg\pte-dbg\PteHook\inline_hook.cpp;D:\Driver_study\pte-dbg\pte-dbg\x64\Release\inline_hook.obj
-D:\Driver_study\pte-dbg\pte-dbg\PteHook\pageUtils.cpp;D:\Driver_study\pte-dbg\pte-dbg\x64\Release\pageUtils.obj
-D:\Driver_study\pte-dbg\pte-dbg\PteHook\ptehook.cpp;D:\Driver_study\pte-dbg\pte-dbg\x64\Release\ptehook.obj
-D:\Driver_study\pte-dbg\pte-dbg\PteHook\hde64.cpp;D:\Driver_study\pte-dbg\pte-dbg\x64\Release\hde64.obj
