@@ -15,6 +15,6 @@
 请不要用来调试某游戏，pte hook是很早的hook技术，相较于ept/npt hook的无痕，你的hook在反作弊眼前几乎是裸奔  
 本项目是为了处理本人的另一个项目: svm-dbg在面对创建调试需要hook及高频函数发生无法解决的卡顿而诞生的项目，创建调试的大部分用途仅仅是为了脱壳，本项目足矣，而且不需要不稳定的虚拟化  
 # 参考
-[1] https://github.com/Qmeimei10086/PTE_hook
-[2] https://github.com/Qmeimei10086/svm-dbg
-[3] https://github.com/xyddnljydd/vt-ReloadDbg  
+[1] https://github.com/Qmeimei10086/PTE_hook  
+[2] https://github.com/Qmeimei10086/svm-dbg  
+[3] https://github.com/xyddnljydd/vt-ReloadDbg    
