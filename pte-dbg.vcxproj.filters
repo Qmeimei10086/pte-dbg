@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="DbgHook">
+      <UniqueIdentifier>{7A1F2C33-9D64-4E82-B5C1-0A4E7F8D1234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PteHook">
+      <UniqueIdentifier>{3C8B7E51-6F2A-4B9D-A7E4-1C5D90B67821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{92D4E7A6-5B31-4C0F-8E29-6D7A14F5C8B3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="driver\DriverMain.cpp">
+      <Filter>driver</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgHook\dbg.cpp">
+      <Filter>DbgHook</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgHook\HookFunc.cpp">
+      <Filter>DbgHook</Filter>
+    </ClCompile>
+    <ClCompile Include="PteHook\hook_manager.cpp">
+      <Filter>PteHook</Filter>
+    </ClCompile>
+    <ClCompile Include="PteHook\inline_hook.cpp">
+      <Filter>PteHook</Filter>
+    </ClCompile>
+    <ClCompile Include="PteHook\pageUtils.cpp">
+      <Filter>PteHook</Filter>
+    </ClCompile>
+    <ClCompile Include="PteHook\ptehook.cpp">
+      <Filter>PteHook</Filter>
+    </ClCompile>
+    <ClCompile Include="PteHook\hde64.cpp">
+      <Filter>PteHook</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DbgHook\dbg.h">
+      <Filter>DbgHook</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgHook\HookFunc.h">
+      <Filter>DbgHook</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgHook\KernelDbgStruct.h">
+      <Filter>DbgHook</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgHook\Symbols.h">
+      <Filter>DbgHook</Filter>
+    </ClInclude>
+    <ClInclude Include="PteHook\hook_manager.h">
+      <Filter>PteHook</Filter>
+    </ClInclude>
+    <ClInclude Include="PteHook\inline_hook.h">
+      <Filter>PteHook</Filter>
+    </ClInclude>
+    <ClInclude Include="PteHook\pageUtils.h">
+      <Filter>PteHook</Filter>
+    </ClInclude>
+    <ClInclude Include="PteHook\ptehook.h">
+      <Filter>PteHook</Filter>
+    </ClInclude>
+    <ClInclude Include="PteHook\hde64.h">
+      <Filter>PteHook</Filter>
+    </ClInclude>
+    <ClInclude Include="PteHook\ia32.hpp">
+      <Filter>PteHook</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

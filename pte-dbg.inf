@@ -1,0 +1,20 @@
+;
+; pte-dbg.inf
+;
+; Primitive driver INF: this driver is loaded as a kernel service by
+; pte-dbg.exe (SCM), it does not install on any PnP device. A primitive INF
+; intentionally has no Manufacturer/DDInstall sections.
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider=%ManufacturerName%
+CatalogFile=pte-dbg.cat
+DriverVer=09/03/2026,1.0.0.0
+PnpLockdown=1
+
+[Strings]
+ManufacturerName="pte-dbg"
+DiskName="pte-dbg Source Disk"

@@ -1,0 +1,8 @@
+D:\Driver_study\pte-dbg\pte-dbg\driver\DriverMain.cpp;D:\Driver_study\pte-dbg\pte-dbg\x64\Debug\DriverMain.obj
+D:\Driver_study\pte-dbg\pte-dbg\DbgHook\dbg.cpp;D:\Driver_study\pte-dbg\pte-dbg\x64\Debug\dbg.obj
+D:\Driver_study\pte-dbg\pte-dbg\DbgHook\HookFunc.cpp;D:\Driver_study\pte-dbg\pte-dbg\x64\Debug\HookFunc.obj
+D:\Driver_study\pte-dbg\pte-dbg\PteHook\hook_manager.cpp;D:\Driver_study\pte-dbg\pte-dbg\x64\Debug\hook_manager.obj
+D:\Driver_study\pte-dbg\pte-dbg\PteHook\inline_hook.cpp;D:\Driver_study\pte-dbg\pte-dbg\x64\Debug\inline_hook.obj
+D:\Driver_study\pte-dbg\pte-dbg\PteHook\pageUtils.cpp;D:\Driver_study\pte-dbg\pte-dbg\x64\Debug\pageUtils.obj
+D:\Driver_study\pte-dbg\pte-dbg\PteHook\ptehook.cpp;D:\Driver_study\pte-dbg\pte-dbg\x64\Debug\ptehook.obj
+D:\Driver_study\pte-dbg\pte-dbg\PteHook\hde64.cpp;D:\Driver_study\pte-dbg\pte-dbg\x64\Debug\hde64.obj
